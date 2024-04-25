@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hannah todo app</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div id="app">
+    <h1>Todo List</h1>
+    <form id="form">
+      <input id="textInput" type="text" placeholder="Add a new task" required>
+      <button type="submit" id="add">Add</button>
+    </form>
+    <div id="tasks">
+      <!-- Tasks will be rendered here -->
+    </div>
+    <ul id="form"></ul>
+    <div id="messages">
+      <!-- Success and confirmation messages will be rendered here -->
+    </div>

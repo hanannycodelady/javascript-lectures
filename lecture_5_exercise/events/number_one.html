@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="alertButton" style="background-color: blue; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Click Me</button>
+
+<script>
+    // The const keyword indicates that the value assigned to this variable cannot be changed or it's constant
+    //  document.getElementById("alertButton"), This part is a JavaScript function that interacts with the HTML document.
+    
+    const alertButton = document.getElementById("alertButton");
+    // addEventListener: This function allows us to specify what kind of event we want to listen for (in this case, "click").
+    alertButton.addEventListener("click", function() {
+    alert("Alert Jane!");
+    });
+</script>
+</body>
+</html>
